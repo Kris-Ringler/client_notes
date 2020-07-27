@@ -91,6 +91,13 @@
         </style>
     </head>
     <body>
-        @yield ('sidebar-html')
+        <div class="container">
+            @yield ('sidebar-html')
+
+        </div>
+        <div class="d-flex">
+            <h1 class="justify-content-center">test</h1>
+        </div>
+
     </body>
 </html>
